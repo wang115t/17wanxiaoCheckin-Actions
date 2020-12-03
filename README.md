@@ -70,7 +70,7 @@ def get_post_json(self, token):
         logging.info('获取完美校园打卡post参数成功')
         return post_dict
 ```
-
+    
 
 
 #### 三、使用方法
