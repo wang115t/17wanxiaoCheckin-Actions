@@ -60,15 +60,107 @@ def get_post_json(self, token):
         "stuNo": data['stuNo'],
         "phonenum": data['phonenum'],
         "templateid": data['templateid'],
-        "updatainfo": [{"propertyname": i["propertyname"], "value": i["value"]} for i in
+        "updatainfo": [
 
-        data['cusTemplateRelations']],
+      {
 
-        "checkbox": [{"description": i["decription"], "value": i["value"]} for i in
+        "propertyname": "age",
 
-        data['cusTemplateRelations']],
+        "value": "19"
 
-        }
+      },
+
+      {
+
+        "propertyname": "jtdz",
+
+        "value": "广东省"
+
+      },
+
+      {
+
+        "propertyname": "levorgodata",
+
+        "value": "佛山市"
+
+      },
+
+      {
+
+        "propertyname": "ownPhone",
+
+        "value": "19806493126"
+
+      },
+
+      {
+
+        "propertyname": "isGoWarningAdress",
+
+        "value": "B.否"
+
+      },
+
+      {
+
+        "propertyname": "jtcy",
+
+        "value": "否"
+
+      },
+
+      {
+
+        "propertyname": "medicalObservation",
+
+        "value": "A.机场路校区"
+
+      },
+
+      {
+
+        "propertyname": "isTouch",
+
+        "value": "B.否"
+
+      },
+
+      {
+
+        "propertyname": "ishborwh",
+
+        "value": "B.否"
+
+      },
+
+      {
+
+        "propertyname": "isis",
+
+        "value": "B.否"
+
+      },
+
+      {
+
+        "propertyname": "isleaveaddress",
+
+        "value": "B.否"
+
+      },
+
+      {
+
+        "propertyname": "medicalObservation1",
+
+        "value": "A.是"
+
+      },
+
+      {
+
+        "propertyname": "tjjw0511"
        
         # print(json.dumps(post_dict, sort_keys=True, indent=4, ensure_ascii=False))
         # 在这里修改没有填写的数据，遍历post_dict['updatainfo']修改就行
