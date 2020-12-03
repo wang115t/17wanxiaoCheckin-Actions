@@ -60,11 +60,97 @@ def get_post_json(self, token):
         "stuNo": data['stuNo'],
         "phonenum": data['phonenum'],
         "templateid": data['templateid'],
-        "updatainfo": [{"propertyname": i["propertyname"], "value": i["value"]} for i in
-        data['cusTemplateRelations']],
-        "checkbox": [{"description": i["decription"], "value": i["value"]} for i in
-        data['cusTemplateRelations']],
-        }
+        "updatainfo": [
+      {
+        "propertyname": "age",
+        "value": "19"
+      },
+      {
+        "propertyname": "jtdz",
+        "value": "广东省"
+      },
+      {
+        "propertyname": "levorgodata",
+        "value": "佛山市"
+      },
+      {
+        "propertyname": "ownPhone",
+        "value": "19806493126"
+      },
+      {
+        "propertyname": "isGoWarningAdress",
+        "value": "B.否"
+      },
+      {
+        "propertyname": "jtcy",
+        "value": "否"
+      },
+      {
+        "propertyname": "medicalObservation",
+        "value": "A.机场路校区"
+      },
+      {
+        "propertyname": "isTouch",
+        "value": "B.否"
+      },
+      {
+        "propertyname": "ishborwh",
+        "value": "B.否"
+      },
+      {
+        "propertyname": "isis",
+        "value": "B.否"
+      },
+      {
+        "propertyname": "isleaveaddress",
+        "value": "B.否"
+      },
+      {
+        "propertyname": "medicalObservation1",
+        "value": "A.是"
+      },
+      {
+        "propertyname": "tjjw0511",
+        "value": "否"
+      },
+      {
+        "propertyname": "ownbodyzk",
+        "value": "B.否"
+      },
+      {
+        "propertyname": "isConfirmed",
+        "value": "A.从未有过居家观察"
+      },
+      {
+        "propertyname": "cxjh",
+        "value": "A.从未有过集中观察"
+      },
+      {
+        "propertyname": "fhhb",
+        "value": "健康"
+      },
+      {
+        "propertyname": "symptom",
+        "value": "A.无症状"
+      },
+      {
+        "propertyname": "sex",
+        "value": "B.否"
+      },
+      {
+        "propertyname": "xinqing",
+        "value": "B.否"
+      },
+      {
+        "propertyname": "isAlreadyInSchool",
+        "value": "B.否"
+      }
+    ],
+    "gpsType": 1,
+    "token": "b3b7a586-09c0-441e-92c3-db2c5f02a225"
+  }
+}
+       
         # print(json.dumps(post_dict, sort_keys=True, indent=4, ensure_ascii=False))
         # 在这里修改没有填写的数据，遍历post_dict['updatainfo']修改就行
         logging.info('获取完美校园打卡post参数成功')
